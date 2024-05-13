@@ -8,10 +8,32 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+    },
   },
   plugins: [
     daisyui,
   ],
+  daisyui: {
+    themes: [
+      {
+        myLight: {
+          "primary": "#ff0000",
+          "secondary": "#dddbff",
+          "accent": "#f6ff00",
+          "neutral": "#0f0f3d",
+          "base-100": "#fbfbfe",
+        },
+        myDark: {
+          "primary": "#ff0000",
+          "secondary": "#020024",
+          "accent": "#f6ff00",
+          "neutral": "#0f0f3d",
+          "base-100": "#010104",
+        },
+      },
+    ],
+  },
 };
 export default config;
