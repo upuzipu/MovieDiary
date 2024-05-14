@@ -19,17 +19,17 @@ const config: Config = {
     themes: [
       {
         myLight: {
-          "primary": "#ff0000",
+          "primary": "#FF1F1F",
           "secondary": "#dddbff",
-          "accent": "#f6ff00",
-          "neutral": "#0f0f3d",
+          "accent": "#FF1F1F",
+          "neutral": "#565657",
           "base-100": "#fbfbfe",
         },
         myDark: {
-          "primary": "#ff0000",
+          "primary": "#E00000",
           "secondary": "#020024",
-          "accent": "#f6ff00",
-          "neutral": "#0f0f3d",
+          "accent": "#E00000",
+          "neutral": "#565657",
           "base-100": "#010104",
         },
       },

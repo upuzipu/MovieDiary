@@ -6,13 +6,13 @@ import {Topbar} from "@/app/components/global/Topbar";
 
 export default function Registration() {
     return (
-        <div>
+        <>
             <Topbar />
-            <div className="min-h-screen flex items-center justify-center">
-                <div className="h-[100vh]">
-                    <div className="flex flex-col items-center justify-center h-screen">
+            <div className="flex items-center justify-center">
+                <div>
+                    <div className="flex flex-col items-center justify-center">
                         <div className="avatar">
-                            <div className="w-24 rounded m-10">
+                            <div className="w-24 rounded-full m-10">
                                 <img
                                     src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"/>
                             </div>
@@ -69,6 +69,6 @@ export default function Registration() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
